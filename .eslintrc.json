@@ -5,6 +5,7 @@
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
     "linebreak-style": "off",
-    "camelcase": "off"
+    "camelcase": "warn",
+    "node/no-unpublished-require": "off"
   }
 }

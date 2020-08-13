@@ -21,15 +21,17 @@ exports.seed = async (knex) => {
   // Promise.all so it is done in parallel
   const idList = await Promise.all(
     oraseJSON.map(async (oras) => {
-      const { id } = await knex(tableNames.county)
-        .select('id')
-        .where('code', oras.code)
-        .first();
+      if (oras.code == 'AG') {
+        const { id } = await knex(tableNames.county)
+          .select('id')
+          .where('code', oras.code)
+          .first();
 
-      cities.push({
-        name: oras.name,
-        county_id: id
-      });
+        cities.push({
+          name: oras.name,
+          county_id: id
+        });
+      }
     })
   );
 

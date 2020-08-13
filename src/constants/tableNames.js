@@ -3,7 +3,6 @@
 module.exports = {
   county: 'county',
   trashcan_type: 'trashcan_type',
-  address: 'address',
   trashcan: 'trashcan',
   city: 'city'
 };

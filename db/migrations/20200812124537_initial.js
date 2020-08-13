@@ -41,14 +41,6 @@ exports.up = async (knex) => {
 
     addDefaults(table, knex);
   });
-
-  await knex.schema.createTable(tableNames.address, (table) => {
-    table.increments().notNullable();
-    table.string('street_address', 100).notNullable();
-    reference(table, 'city_id', tableNames.city);
-
-    addDefaults(table, knex);
-  });
 };
 
 /**

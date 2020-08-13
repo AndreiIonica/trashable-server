@@ -88,3 +88,6 @@ typings/
 
 # Electron-Forge
 out/
+
+cities.json
+counties.json
