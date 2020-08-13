@@ -5,7 +5,7 @@ const tableNames = require('../../src/constants/tableNames');
 async function addDefaults(table, knex) {
   table.timestamps(false, true);
 
-  table.datetime('deleted_at').notNullable().defaultTo(knex.fn.now());
+  table.datetime('deleted_at');
 }
 
 // Foreign Key constraint helper function
@@ -32,7 +32,7 @@ exports.up = async (knex) => {
     table.boolean('private_property');
     table.boolean('clean');
     table.string('photo_url', 2000);
-    addDefaults();
+    addDefaults(table, knex);
   });
 };
 

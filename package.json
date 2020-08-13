@@ -4,9 +4,12 @@
   "description": "Backend for Trashable app.",
   "scripts": {
     "migrate": "knex migrate:latest",
-    "rollback": "knex migrate:rollback"
+    "rollback": "knex migrate:rollback",
+    "clean": "node src/data_cleaning/clean_judete.js && node src/data_cleaning/clean_orase.js",
+    "seed": "npm run clean && knex seed:run"
   },
   "dependencies": {
+    "csv-parser": "^2.3.3",
     "dotenv": "^8.2.0",
     "knex": "^0.21.4",
     "pg": "^8.3.0"
