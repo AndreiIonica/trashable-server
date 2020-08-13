@@ -32,6 +32,7 @@ exports.up = async (knex) => {
     table.boolean('private_property');
     table.boolean('clean');
     table.string('photo_url', 2000);
+    addDefaults();
   });
 };
 
