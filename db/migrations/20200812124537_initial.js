@@ -19,18 +19,17 @@ function reference(table, column, foreign_table) {
  */
 exports.up = async (knex) => {
   // Self explaining code
+  await knex.schema.createTable(tableNames.trashcan_type, (table) => {
+    table.increments().notNullable();
+    table.string('name', 50).notNullable();
+
+    addDefaults(table, knex);
+  });
 
   await knex.schema.createTable(tableNames.county, (table) => {
     table.increments().notNullable();
     table.string('name').notNullable();
     table.string('code', 5).notNullable();
-
-    addDefaults(table, knex);
-  });
-
-  await knex.schema.createTable(tableNames.trashcan_type, (table) => {
-    table.increments().notNullable();
-    table.string('name', 50).notNullable();
 
     addDefaults(table, knex);
   });
@@ -43,18 +42,10 @@ exports.up = async (knex) => {
     addDefaults(table, knex);
   });
 
-  await knex.schema.createTable(tableNames.cityRegion, (table) => {
-    table.increments().notNullable();
-    reference(table, 'city_id', tableNames.city);
-    table.string('name', 50).notNullable();
-
-    addDefaults(table, knex);
-  });
-
   await knex.schema.createTable(tableNames.address, (table) => {
     table.increments().notNullable();
     table.string('street_address', 100).notNullable();
-    reference(table, 'city_region_id', tableNames.cityRegion);
+    reference(table, 'city_id', tableNames.city);
 
     addDefaults(table, knex);
   });
@@ -66,9 +57,8 @@ exports.up = async (knex) => {
 exports.down = async (knex) => {
   // Exact order, if changed will break
   // Reverse from creation order
-  await knex.schema.dropTable(tableNames.address);
-  await knex.schema.dropTable(tableNames.cityRegion);
-  await knex.schema.dropTable(tableNames.city);
-  await knex.schema.dropTable(tableNames.trashcan_type);
-  await knex.schema.dropTable(tableNames.county);
+  await knex.schema.dropTableIfExists(tableNames.address);
+  await knex.schema.dropTableIfExists(tableNames.city);
+  await knex.schema.dropTableIfExists(tableNames.trashcan_type);
+  await knex.schema.dropTableIfExists(tableNames.county);
 };

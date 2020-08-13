@@ -5,6 +5,5 @@ module.exports = {
   trashcan_type: 'trashcan_type',
   address: 'address',
   trashcan: 'trashcan',
-  city: 'city',
-  cityRegion: 'city_region'
+  city: 'city'
 };
