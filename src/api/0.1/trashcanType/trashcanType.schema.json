@@ -18,14 +18,19 @@
       "examples": ["Pubela de gunoi"]
     },
     "created_at": {
-      "$id": "#/properties/name",
+      "$id": "#/properties/created_at",
       "type": "string",
       "title": "The date the trashcan_type was created"
     },
     "update_at": {
-      "$id": "#/properties/name",
+      "$id": "#/properties/updated_at",
       "type": "string",
       "title": "The date the trashcan_type was last updated"
+    },
+    "deleted_at": {
+      "$id": "#/properties/deleted_at",
+      "type": "string",
+      "title": "The date the trashcan_type was deleted"
     }
   },
   "additionalProperties": false
