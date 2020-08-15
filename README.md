@@ -1,11 +1,104 @@
-# trashable-server
+# Trashable API
 
-Backend for Trashable app.Made by Andrei and Dragos.
+Backend for Trashable app.Made by Andrei and Dragos.[Link to DB Model](https://app.lucidchart.com/invitations/accept/c90b5325-6bb5-48f2-9944-15af61ee43d0).
 
-## Project Structure:
+## Table of contents
+
+- [Project Structure](###project-structure:)
+- [Routes](###routes)
+  - [Home routes](#####home-route)
+  - [Trashcan type routes](#####trashcan-type)
+  - [County(judet) routes](<#####county(judet)>)
+  - [City routes](#####city)
+  - [Trashcan routes](#####trashcan)
+
+### Project Structure:
 
 TODO: Add project structure.
 
-## DB Model
+### Routes
 
-Implemented all tables.[Link to DB Model](https://app.lucidchart.com/invitations/accept/c90b5325-6bb5-48f2-9944-15af61ee43d0).
+TODO:implement them:)
+
+##### HOME ROUTES
+
+- GET /
+  - should respond with a generic message in a json object
+- GET /api/0.1//
+  - should respond with a generic message in a json object
+
+##### TRASHCAN TYPE
+
+- GET /api/0.1/trashcanType/
+  - responds with all the trashcan types in the system
+- GET /api/0.1/trashcanType/:id
+  - responds with the trashcan type with the given id
+- POST /api/0.1/trashcanType/
+  - body needs to be json
+  - needs to be a valid trashcan_type object.
+  - responds back with the created trashcan_type
+- PUT /api/0.1/trashcanType/:id
+  - body needs to be json
+  - needs to be a valid trashcan_type object.
+  - update the trashcan with the given id
+  - responds back with the updated trashcan_type
+- DELETE /api/0.1/trashcanType/:id
+  - empty body
+  - deletes the trashcan_type with the given id
+
+##### COUNTY(JUDET)
+
+- GET /api/0.1/county/
+  - responds with all the counties in the system
+- GET /api/0.1/county/:id
+  - responds with the county with the given id
+- POST /api/0.1/county/
+  - body needs to be json
+  - needs to be a valid county object.
+  - responds back with the created county
+- PUT /api/0.1/county/:id
+  - body needs to be json
+  - needs to be a valid county object.
+  - update the county with the given id
+  - responds back with the updated county
+- DELETE /api/0.1/county/:id
+  - empty body
+  - deletes the county with the given id
+
+##### CITY
+
+- GET /api/0.1/city/
+  - responds with all the cities in the system
+- GET /api/0.1/city/:id
+  - responds with the city with the given id
+- POST /api/0.1/city/
+  - body needs to be json
+  - needs to be a valid city object.
+  - responds back with the created city
+- PUT /api/0.1/city/:id
+  - body needs to be json
+  - needs to be a valid city object.
+  - update the city with the given id
+  - responds back with the updated city
+- DELETE /api/0.1/city/:id
+  - empty body
+  - deletes the city with the given id
+
+##### TRASHCAN
+
+- GET /api/0.1/trashcan/
+  - responds with all the trashcans in the system
+- GET /api/0.1/trashcan/:id
+  - responds with the trashcan with the given id
+- POST /api/0.1/trashcan/
+  - body needs to be json
+  - needs to be a valid trashcan object.
+  - responds back with the created trashcan
+- PUT /api/0.1/trashcan/:id
+  - body needs to be json
+  - needs to be a valid trashcan object.
+  - update the trashcan with the given id
+  - responds back with the updated trashcan
+- DELETE /api/0.1/trashcan/:id
+  - empty body
+  - deletes the trashcan with the given id
