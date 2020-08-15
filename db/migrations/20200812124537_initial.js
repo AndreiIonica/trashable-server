@@ -21,7 +21,7 @@ exports.up = async (knex) => {
   // Self explaining code
   await knex.schema.createTable(tableNames.trashcan_type, (table) => {
     table.increments().notNullable();
-    table.string('name', 50).notNullable();
+    table.string('name', 50).notNullable().unique();
 
     addDefaults(table, knex);
   });

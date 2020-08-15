@@ -7,6 +7,9 @@ const compression = require('compression');
 // Security headers
 const helmet = require('helmet');
 
+// Connect to db
+const db = require('./db');
+
 // notFound and a generic errorHandler
 const middlewares = require('./middlewares');
 
