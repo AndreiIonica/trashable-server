@@ -52,18 +52,6 @@ TODO:implement them:)
   - responds with all the counties in the system
 - GET /api/0.1/county/:id
   - responds with the county with the given id
-- POST /api/0.1/county/
-  - body needs to be json
-  - needs to be a valid county object.
-  - responds back with the created county
-- PUT /api/0.1/county/:id
-  - body needs to be json
-  - needs to be a valid county object.
-  - update the county with the given id
-  - responds back with the updated county
-- DELETE /api/0.1/county/:id
-  - empty body
-  - deletes the county with the given id
 
 ##### CITY
 
@@ -71,18 +59,6 @@ TODO:implement them:)
   - responds with all the cities in the system
 - GET /api/0.1/city/:id
   - responds with the city with the given id
-- POST /api/0.1/city/
-  - body needs to be json
-  - needs to be a valid city object.
-  - responds back with the created city
-- PUT /api/0.1/city/:id
-  - body needs to be json
-  - needs to be a valid city object.
-  - update the city with the given id
-  - responds back with the updated city
-- DELETE /api/0.1/city/:id
-  - empty body
-  - deletes the city with the given id
 
 ##### TRASHCAN
 
