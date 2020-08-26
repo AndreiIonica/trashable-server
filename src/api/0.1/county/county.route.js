@@ -13,7 +13,7 @@ const router = express.Router();
 router.get('/', async (req, res, next) => {
   try {
     const types = await County.query()
-      .select('id', 'name', 'created_at', 'updated_at')
+      .select('id', 'name', 'code', 'created_at', 'updated_at')
       .where('deleted_at', null);
 
     // Send back the object
@@ -28,8 +28,8 @@ router.get('/', async (req, res, next) => {
 router.get('/:id', async (req, res, next) => {
   try {
     const types = await County.query()
-      .select('id', 'name', 'created_at', 'updated_at')
-      .where('id', req.params.id)
+      .select('id', 'name', 'code', 'created_at', 'updated_at')
+      .findById(req.params.id)
       .where('deleted_at', null);
 
     // Send back the object

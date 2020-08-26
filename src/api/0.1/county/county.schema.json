@@ -17,6 +17,12 @@
       "title": "The name of the county.Must be unique",
       "examples": ["Arges"]
     },
+    "code": {
+      "$id": "#/properties/code",
+      "type": "string",
+      "title": "The code of the county.Must be unique",
+      "examples": ["AG"]
+    },
     "created_at": {
       "$id": "#/properties/created_at",
       "type": "string",
