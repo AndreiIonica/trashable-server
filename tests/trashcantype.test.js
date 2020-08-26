@@ -10,6 +10,6 @@ describe('GET all trashcan types', () => {
       .expect('Content-Type', /json/)
       .expect(200);
     // Test if array
-    expect(response.body.length).toBeTruthy();
+    expect(response.body).toHaveProperty('length');
   });
 });
