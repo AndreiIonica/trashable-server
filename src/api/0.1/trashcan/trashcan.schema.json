@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Trashcan",
+  "description": "The trashcan object schema",
+  "default": {},
+  "required": [
+    "latitude",
+    "longitude",
+    "altitude",
+    "street_address",
+    "city_id",
+    "type_id"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The database id"
+    },
+    "latitude": {
+      "$id": "#/properties/latitude",
+      "type": "number",
+      "title": "The trashcan latitude"
+    },
+    "longitude": {
+      "$id": "#/properties/longitude",
+      "type": "number",
+      "title": "The trashcan longitude"
+    },
+    "altitude": {
+      "$id": "#/properties/altitude",
+      "type": "number",
+      "title": "The trashcan altitude"
+    },
+    "street_address": {
+      "$id": "#/properties/street_address",
+      "type": "string",
+      "title": "The trashcan street_address"
+    },
+    "city_id": {
+      "$id": "#/properties/city_id",
+      "type": "number",
+      "title": "The trashcan city_id"
+    },
+    "type_id": {
+      "$id": "#/properties/type_id",
+      "type": "number",
+      "title": "The trashcan type_id"
+    },
+    "photo_url": {
+      "$id": "#/properties/photo_url",
+      "type": "string",
+      "title": "The trashcan photo_url"
+    },
+    "clean": {
+      "$id": "#/properties/clean",
+      "type": "boolean",
+      "title": "Trashcan clean bool property"
+    },
+
+    "created_at": {
+      "$id": "#/properties/created_at",
+      "type": "string",
+      "title": "The date the trashcan_type was created"
+    },
+    "update_at": {
+      "$id": "#/properties/updated_at",
+      "type": "string",
+      "title": "The date the trashcan_type was last updated"
+    },
+    "deleted_at": {
+      "$id": "#/properties/deleted_at",
+      "type": "string",
+      "title": "The date the trashcan_type was deleted"
+    }
+  },
+  "additionalProperties": false
+}

@@ -12,7 +12,7 @@ function notFound(req, res, next) {
 // It has 4 args so it is recognised as an error handler
 function errorHandler(err, req, res, next) {
   // If the status code hasn't been set it defaults to 200
-  const statusCode = res.statusCode == 200 ? 500 : res.statusCode;
+  const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
   res.status(statusCode);
 
   // We want to show the stack only in development

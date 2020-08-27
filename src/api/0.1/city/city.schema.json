@@ -4,7 +4,7 @@
   "title": "City Type",
   "description": "The city object schema",
   "default": {},
-  "required": ["name"],
+  "required": ["name", "county_id"],
   "properties": {
     "id": {
       "$id": "#/properties/id",
