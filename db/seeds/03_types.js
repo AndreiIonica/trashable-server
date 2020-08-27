@@ -2,7 +2,7 @@ const Knex = require('knex');
 const tableNames = require('../../src/constants/tableNames');
 
 // Predefined list of all types
-// TODO: should i remove the ability ti create new trashcanTypes?
+// TODO: should i remove the ability to create new trashcanTypes?
 const types = require('../../src/constants/type.json');
 
 /**
