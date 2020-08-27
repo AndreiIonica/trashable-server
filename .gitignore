@@ -89,5 +89,4 @@ typings/
 # Electron-Forge
 out/
 
-cities.json
-counties.json
+data_seed/

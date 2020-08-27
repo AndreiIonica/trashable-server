@@ -6,7 +6,7 @@
     "migrate": "knex migrate:latest",
     "rollback": "knex migrate:rollback",
     "seed": "npm run clean && knex seed:run",
-    "clean": "node src/data_cleaning/clean_judete.js && node src/data_cleaning/clean_orase.js",
+    "clean": "node data_seed/clean_judete.js && node data_seed/clean_orase.js",
     "start": "node src/index.js",
     "test": "jest",
     "dev": "nodemon src/index.js"
