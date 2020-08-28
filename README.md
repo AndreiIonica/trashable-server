@@ -1,6 +1,6 @@
 # Trashable API
 
-Backend for Trashable app.Made by Andrei and Dragos.[Link to DB Model](https://app.lucidchart.com/invitations/accept/c90b5325-6bb5-48f2-9944-15af61ee43d0).
+Backend for Trashable app.Made by Andrei and Dragos.[Link to DB Model](https://app.lucidchart.com/documents/view/6b6fb8f9-e0fb-4930-b0e9-609756d9d720).
 
 ## Table of contents
 
