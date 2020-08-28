@@ -21,8 +21,6 @@ router.get('/:id', async (req, res, next) => {
     const city = await City.query()
       .select('id', 'name', 'county_id', 'updated_at', 'created_at')
       .findById(req.params.id);
-    const county = await city.$relatedQuery('county').select('name', 'code');
-    city.county = county;
 
     res.json(city);
   } catch (err) {

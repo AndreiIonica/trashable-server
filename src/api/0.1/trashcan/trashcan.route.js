@@ -33,4 +33,35 @@ router.post('/', async (req, res, next) => {
   }
 });
 
+router.put('/:id', async (req, res, next) => {
+  try {
+    const updatedT = await Trashcan.query()
+      .findById(req.params.id)
+      .patch(req.body);
+
+    // Send back a generic message to let the client know it was succesful
+    res.json({
+      message: 'Executed correctly'
+    });
+  } catch (err) {
+    next(err);
+  }
+});
+
+router.delete('/:id', async (req, res, next) => {
+  try {
+    // Soft deletes
+    await Trashcan.query().findById(req.params.id).patch({
+      deleted_at: new Date().toISOString()
+    });
+
+    // Send back a generic message to let the client know it was succesful
+    res.json({
+      message: 'Executed correctly'
+    });
+  } catch (err) {
+    next(err);
+  }
+});
+
 module.exports = router;
