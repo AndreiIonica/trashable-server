@@ -1,4 +1,4 @@
-// Loads a list of cities from a json file(they are cleaned), finds the county_id for the city
+// Loads a list of cities from a json file(they are cleaned), only for AG county,
 // and inserts it in the db
 const Knex = require('knex');
 const tableNames = require('../../src/constants/tableNames');
@@ -15,23 +15,23 @@ exports.seed = async (knex) => {
   // Array for storing all the cities
   const cities = [];
 
+  // Get the id of Arges county
+  const { id } = await knex(tableNames.county)
+    .select('id')
+    .where('code', 'AG')
+    .first();
+
   // JS fuckery to do it in parallel
+
   // Explanation: map returns a new array with the return of the function applied to every element
   // the async function returns a promise and we put that into
   // Promise.all so it is done in parallel
-  const idList = await Promise.all(
+  await Promise.all(
     oraseJSON.map(async (oras) => {
-      if (oras.code == 'AG') {
-        const { id } = await knex(tableNames.county)
-          .select('id')
-          .where('code', oras.code)
-          .first();
-
-        cities.push({
-          name: oras.name,
-          county_id: id
-        });
-      }
+      cities.push({
+        name: oras.name,
+        county_id: id
+      });
     })
   );
 

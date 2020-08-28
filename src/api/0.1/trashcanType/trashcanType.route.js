@@ -73,11 +73,9 @@ router.delete('/:id', async (req, res, next) => {
   // Soft deletes
   // setting deleted_at to now
   try {
-    const insertedType = await TrashcanType.query()
-      .findById(req.params.id)
-      .patch({
-        deleted_at: new Date().toISOString()
-      });
+    await TrashcanType.query().findById(req.params.id).patch({
+      deleted_at: new Date().toISOString()
+    });
 
     // Send back a generic message to let the client know it was succesful
     res.json({
