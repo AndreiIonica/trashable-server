@@ -12,12 +12,12 @@ const router = express.Router();
 // Get all route
 router.get('/', async (req, res, next) => {
   try {
-    const types = await County.query()
+    const counties = await County.query()
       .select('id', 'name', 'code', 'created_at', 'updated_at')
       .where('deleted_at', null);
 
     // Send back the object
-    res.json(types);
+    res.json(counties);
   } catch (err) {
     // forward the error to the error handler
     next(err);
