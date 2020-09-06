@@ -20,10 +20,10 @@ function reference(table, column, foreign_table) {
 exports.up = async (knex) => {
   await knex.schema.createTable(tableNames.trashcan, (table) => {
     table.increments().notNullable();
-    // For precision,3 digits before the dot and 6 after will give us an accuracy of 10 cm
+    // For precision,3 digits before the dot and 4 after will give us an accuracy of 10 m
     // https://gis.stackexchange.com/questions/8650/measuring-accuracy-of-latitude-and-longitude
-    table.decimal('latitude', 9, 6).notNullable();
-    table.decimal('longitude', 9, 6).notNullable();
+    table.decimal('latitude', 7, 4).notNullable();
+    table.decimal('longitude', 7, 4).notNullable();
     table.string('street_address', 255).notNullable();
 
     table.integer('altitude', 5);
