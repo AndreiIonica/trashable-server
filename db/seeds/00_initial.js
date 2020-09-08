@@ -5,9 +5,9 @@ const bcrypt = require('bcrypt'); // hashing algo
 const fs = require('fs'); // hashing algo
 
 const tableNames = require('../../src/constants/tableNames.json');
-const judete = require('../../src/constants/counties.json');
-const oraseJSON = require('../../src/constants/cities.json');
-const types = require('../../src/constants/type.json');
+const judete = require('../sources/counties.json');
+const oraseJSON = require('../sources/cities.json');
+const types = require('../sources/type.json');
 
 const cities = [];
 
@@ -15,23 +15,17 @@ const cities = [];
  * @param {Knex} knex
  */
 exports.seed = async (knex) => {
-  // CITIES SEED
+  await knex(tableNames.user).del();
   await knex(tableNames.city).del();
-  await knex(tableNames.city).insert(cities);
-
-  // Delete all existing trashcan_types
+  await knex(tableNames.county).del();
   await knex(tableNames.trashcan_type).del();
-  // Inserts all items from array into db, shouldn't throw an error as the data is cleaned
-  await knex(tableNames.trashcan_type).insert(types);
-  /* ********************************************************* */
 
   // COUNTIES SEED
-  await knex(tableNames.county).del();
   // Inserts all items from array into db, shouldn't throw an error as the data is cleaned
   await knex(tableNames.county).insert(judete);
+  /* ********************************************************* */
 
-  // Deletes all existing cities
-  await knex(tableNames.city).del();
+  // CITIES SEED
 
   // Get the id of Arges county
   const { id } = await knex(tableNames.county)
@@ -50,10 +44,14 @@ exports.seed = async (knex) => {
       });
     })
   );
+  await knex(tableNames.city).insert(cities);
+
+  // TRASHCAN_TYPE SEED
+  // Inserts all items from array into db, shouldn't throw an error as the data is cleaned
+  await knex(tableNames.trashcan_type).insert(types);
   /* ********************************************************* */
 
   // USERS SEED
-  await knex(tableNames.user).del();
 
   const password = crypto.randomBytes(15).toString('hex');
 
