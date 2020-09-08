@@ -89,4 +89,7 @@ typings/
 # Electron-Forge
 out/
 
+# Project specific
 data_seed/
+
+utilizator.json
