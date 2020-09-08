@@ -1,17 +1,17 @@
 const Knex = require('knex');
-const tableNames = require('../../src/constants/tableNames');
+const tableNames = require('../../src/constants/tableNames.json');
 
 // Add created_at, updated_at and deleted at timestamps(datetime format)
-async function addDefaults(table, knex) {
+async function addDefaults(table) {
   table.timestamps(false, true);
 
   table.datetime('deleted_at');
 }
 
 // Foreign Key constraint helper function
-function reference(table, column, foreign_table) {
+function reference(table, column, foreignTable) {
   table.integer(column).unsigned().notNullable();
-  table.foreign(column).references('id').inTable(foreign_table);
+  table.foreign(column).references('id').inTable(foreignTable);
 }
 
 /**
@@ -23,7 +23,7 @@ exports.up = async (knex) => {
     table.increments().notNullable();
     table.string('name', 50).notNullable().unique();
 
-    addDefaults(table, knex);
+    addDefaults(table);
   });
 
   await knex.schema.createTable(tableNames.county, (table) => {
@@ -31,7 +31,7 @@ exports.up = async (knex) => {
     table.string('name').notNullable();
     table.string('code', 5).notNullable();
 
-    addDefaults(table, knex);
+    addDefaults(table);
   });
 
   await knex.schema.createTable(tableNames.city, (table) => {
@@ -39,7 +39,7 @@ exports.up = async (knex) => {
     table.string('name', 50).notNullable();
     reference(table, 'county_id', tableNames.county);
 
-    addDefaults(table, knex);
+    addDefaults(table);
   });
 };
 
@@ -49,7 +49,6 @@ exports.up = async (knex) => {
 exports.down = async (knex) => {
   // Exact order, if changed will break
   // Reverse from creation order
-  await knex.schema.dropTableIfExists(tableNames.address);
   await knex.schema.dropTableIfExists(tableNames.city);
   await knex.schema.dropTableIfExists(tableNames.trashcan_type);
   await knex.schema.dropTableIfExists(tableNames.county);

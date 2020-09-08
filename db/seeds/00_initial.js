@@ -9,24 +9,8 @@ const judete = require('../sources/counties.json');
 const oraseJSON = require('../sources/cities.json');
 const types = require('../sources/type.json');
 
-const cities = [];
-
-/**
- * @param {Knex} knex
- */
-exports.seed = async (knex) => {
-  await knex(tableNames.user).del();
-  await knex(tableNames.city).del();
-  await knex(tableNames.county).del();
-  await knex(tableNames.trashcan_type).del();
-
-  // COUNTIES SEED
-  // Inserts all items from array into db, shouldn't throw an error as the data is cleaned
-  await knex(tableNames.county).insert(judete);
-  /* ********************************************************* */
-
-  // CITIES SEED
-
+const citySeed = async (knex) => {
+  const cities = [];
   // Get the id of Arges county
   const { id } = await knex(tableNames.county)
     .select('id')
@@ -45,14 +29,9 @@ exports.seed = async (knex) => {
     })
   );
   await knex(tableNames.city).insert(cities);
+};
 
-  // TRASHCAN_TYPE SEED
-  // Inserts all items from array into db, shouldn't throw an error as the data is cleaned
-  await knex(tableNames.trashcan_type).insert(types);
-  /* ********************************************************* */
-
-  // USERS SEED
-
+const userSeed = async (knex) => {
   const password = crypto.randomBytes(15).toString('hex');
 
   const user = {
@@ -67,4 +46,25 @@ exports.seed = async (knex) => {
   createdUser.password = password;
 
   fs.writeFileSync('./utilizator.json', JSON.stringify(createdUser, null, 2));
+};
+
+/**
+ * @param {Knex} knex
+ */
+exports.seed = async (knex) => {
+  // Deletes it in the other in the file(thank god JSON is consistent this time)
+  await Promise.all(Object.keys(tableNames).map((name) => knex(name).del()));
+
+  // COUNTIES SEED
+  await knex(tableNames.county).insert(judete);
+
+  // CITIES SEED
+  await citySeed(knex);
+
+  // TRASHCAN_TYPE SEED
+  await knex(tableNames.trashcan_type).insert(types);
+  /* ********************************************************* */
+
+  // USERS SEED
+  await userSeed(knex);
 };

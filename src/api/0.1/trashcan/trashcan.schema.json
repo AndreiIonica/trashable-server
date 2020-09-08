@@ -18,6 +18,11 @@
       "type": "integer",
       "title": "The database id"
     },
+    "user_id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The user id"
+    },
     "latitude": {
       "$id": "#/properties/latitude",
       "type": "number",

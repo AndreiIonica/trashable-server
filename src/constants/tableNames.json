@@ -1,7 +1,7 @@
 {
-  "county": "county",
-  "trashcan_type": "trashcan_type",
-  "trashcan": "trashcan",
   "user": "user",
-  "city": "city"
+  "trashcan": "trashcan",
+  "city": "city",
+  "county": "county",
+  "trashcan_type": "trashcan_type"
 }
