@@ -1,4 +1,5 @@
 // Loads a list of counties(In Romania) from a json file, they are pre-cleaned
+// eslint-disable-next-line no-unused-vars
 const Knex = require('knex');
 const crypto = require('crypto'); // random bytes
 const bcrypt = require('bcrypt'); // hashing algo

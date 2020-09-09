@@ -1,0 +1,1527 @@
+[
+  {
+    "latitude": 44.8453,
+    "longitude": 24.8771,
+    "address": "str. Exercițiu nr. 216"
+  },
+  {
+    "latitude": 44.8456,
+    "longitude": 24.8769,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8458,
+    "longitude": 24.8768,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8459,
+    "longitude": 24.8764,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.855,
+    "longitude": 24.8569,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8549,
+    "longitude": 24.8569,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8548,
+    "longitude": 24.8565,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8546,
+    "longitude": 24.8561,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8545,
+    "longitude": 24.8557,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8543,
+    "longitude": 24.8549,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8542,
+    "longitude": 24.8548,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8541,
+    "longitude": 24.8545,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8541,
+    "longitude": 24.8542,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.854,
+    "longitude": 24.8538,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8538,
+    "longitude": 24.8535,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8536,
+    "longitude": 24.8531,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8536,
+    "longitude": 24.8528,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8535,
+    "longitude": 24.8524,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 24.8524,
+    "longitude": 24.8524,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8539,
+    "longitude": 24.8387,
+    "address": "Str. Libertății"
+  },
+  {
+    "latitude": 44.8539,
+    "longitude": 24.8377,
+    "address": "Str. Libertății"
+  },
+  {
+    "latitude": 44.854,
+    "longitude": 24.838,
+    "address": "Str. Libertății"
+  },
+  {
+    "latitude": 44.8532,
+    "longitude": 24.8475,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8535,
+    "longitude": 24.8395,
+    "address": "Str. Libertății"
+  },
+  {
+    "latitude": 44.8539,
+    "longitude": 24.8395,
+    "address": "Str. Libertății"
+  },
+  {
+    "latitude": 44.8533,
+    "longitude": 24.8481,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8532,
+    "longitude": 24.852,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8535,
+    "longitude": 24.8509,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8535,
+    "longitude": 24.8514,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8535,
+    "longitude": 24.8517,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8533,
+    "longitude": 24.8518,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8533,
+    "longitude": 24.8516,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8534,
+    "longitude": 24.8512,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8534,
+    "longitude": 24.8508,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8534,
+    "longitude": 24.8505,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8533,
+    "longitude": 24.8505,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8532,
+    "longitude": 24.8507,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8531,
+    "longitude": 24.8509,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8531,
+    "longitude": 24.851,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.853,
+    "longitude": 24.8511,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.853,
+    "longitude": 24.8512,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8529,
+    "longitude": 24.8514,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8531,
+    "longitude": 24.8516,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8531,
+    "longitude": 24.8515,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.853,
+    "longitude": 24.8514,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.853,
+    "longitude": 24.8515,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8529,
+    "longitude": 24.8515,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8529,
+    "longitude": 24.8516,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8527,
+    "longitude": 24.8517,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8528,
+    "longitude": 24.8523,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8535,
+    "longitude": 24.855,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8536,
+    "longitude": 24.8561,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8532,
+    "longitude": 24.8531,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8569,
+    "longitude": 24.86,
+    "address": "Strada Trivale 27"
+  },
+  {
+    "latitude": 44.8582,
+    "longitude": 24.8624,
+    "address": "Strada Trivale 27"
+  },
+  {
+    "latitude": 44.8586,
+    "longitude": 24.8642,
+    "address": "Str. Trivale nr. 14"
+  },
+  {
+    "latitude": 44.8589,
+    "longitude": 24.8649,
+    "address": "Str. Trivale, nr. 5-7"
+  },
+  {
+    "latitude": 44.8591,
+    "longitude": 24.8655,
+    "address": "Str. Trivale, nr. 5-7"
+  },
+  {
+    "latitude": 44.8591,
+    "longitude": 44.8591,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8589,
+    "longitude": 24.8647,
+    "address": "Str. Trivale, nr. 5-7"
+  },
+  {
+    "latitude": 44.8579,
+    "longitude": 24.8615,
+    "address": "Strada Trivale 27"
+  },
+  {
+    "latitude": 44.8561,
+    "longitude": 24.8588,
+    "address": "Strada Trivale 27"
+  },
+  {
+    "latitude": 44.8555,
+    "longitude": 24.8581,
+    "address": "Zmeurei 58"
+  },
+  {
+    "latitude": 44.8552,
+    "longitude": 24.8574,
+    "address": "Zmeurei 58"
+  },
+  {
+    "latitude": 44.8506,
+    "longitude": 24.8466,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8493,
+    "longitude": 24.8422,
+    "address": "str trivale"
+  },
+  {
+    "latitude": 44.8489,
+    "longitude": 24.8436,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8493,
+    "longitude": 24.8452,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8499,
+    "longitude": 24.8479,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8501,
+    "longitude": 24.8488,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8502,
+    "longitude": 24.8491,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8503,
+    "longitude": 24.8523,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8503,
+    "longitude": 24.8536,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8503,
+    "longitude": 24.8542,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8504,
+    "longitude": 24.8545,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8504,
+    "longitude": 24.8548,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8504,
+    "longitude": 24.8553,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8504,
+    "longitude": 24.8566,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8505,
+    "longitude": 24.8571,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8502,
+    "longitude": 24.8537,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8502,
+    "longitude": 24.8532,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8501,
+    "longitude": 24.8528,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8501,
+    "longitude": 24.8525,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8502,
+    "longitude": 24.8508,
+    "address": "Trivale"
+  },
+  {
+    "latitude": 44.85,
+    "longitude": 24.849,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8497,
+    "longitude": 24.8482,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8497,
+    "longitude": 24.8476,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8495,
+    "longitude": 24.8468,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8487,
+    "longitude": 24.8434,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8488,
+    "longitude": 24.842,
+    "address": "str trivale"
+  },
+  {
+    "latitude": 44.8514,
+    "longitude": 24.8401,
+    "address": "str trivale"
+  },
+  {
+    "latitude": 44.8526,
+    "longitude": 24.8397,
+    "address": "Str. Trivale nr. 75"
+  },
+  {
+    "latitude": 44.8533,
+    "longitude": 24.8393,
+    "address": "Str. Libertății"
+  },
+  {
+    "latitude": 44.8539,
+    "longitude": 24.839,
+    "address": "Str. Libertății"
+  },
+  {
+    "latitude": 44.8511,
+    "longitude": 24.8549,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8512,
+    "longitude": 24.8512,
+    "address": "Pădurea Trivale"
+  },
+  {
+    "latitude": 44.8506,
+    "longitude": 24.8469,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.8509,
+    "longitude": 24.8469,
+    "address": "Bd. Libertății"
+  },
+  {
+    "latitude": 44.849,
+    "longitude": 24.8552,
+    "address": "Strada Trivale"
+  },
+  {
+    "latitude": 44.8505,
+    "longitude": 24.8716,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8502,
+    "longitude": 24.8712,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8505,
+    "longitude": 24.8707,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8514,
+    "longitude": 24.8693,
+    "address": "Strada Exercitiu, bl. 17D"
+  },
+  {
+    "latitude": 44.8523,
+    "longitude": 24.8681,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8524,
+    "longitude": 24.8682,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8529,
+    "longitude": 24.8688,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8533,
+    "longitude": 24.8695,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8537,
+    "longitude": 24.8697,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.854,
+    "longitude": 24.8704,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8542,
+    "longitude": 24.8704,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8551,
+    "longitude": 24.8716,
+    "address": "Str. Armand Calinescu"
+  },
+  {
+    "latitude": 44.8553,
+    "longitude": 24.8715,
+    "address": "Str. Armand Calinescu"
+  },
+  {
+    "latitude": 44.8557,
+    "longitude": 24.8711,
+    "address": "Str. Armand Călinescu nr. 44"
+  },
+  {
+    "latitude": 44.857,
+    "longitude": 24.8696,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8571,
+    "longitude": 24.8695,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8579,
+    "longitude": 24.8687,
+    "address": "Str. Armand Calinescu, nr. 7"
+  },
+  {
+    "latitude": 44.8577,
+    "longitude": 24.8689,
+    "address": "Str. Armand Calinescu, nr. 7"
+  },
+  {
+    "latitude": 44.8572,
+    "longitude": 24.8704,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.857,
+    "longitude": 24.8701,
+    "address": "Strada Armand Călinescu Nr. 9"
+  },
+  {
+    "latitude": 44.8569,
+    "longitude": 24.8699,
+    "address": "Strada Armand Călinescu Nr. 9"
+  },
+  {
+    "latitude": 44.8557,
+    "longitude": 24.8724,
+    "address": "Bd. Eroilor nr. 3"
+  },
+  {
+    "latitude": 44.8561,
+    "longitude": 24.8727,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.856,
+    "longitude": 24.8726,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8562,
+    "longitude": 24.8722,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8557,
+    "longitude": 24.8719,
+    "address": "Bd. Eroilor nr. 3"
+  },
+  {
+    "latitude": 44.8556,
+    "longitude": 24.8719,
+    "address": "Bd. Eroilor nr. 3"
+  },
+  {
+    "latitude": 44.8556,
+    "longitude": 24.8718,
+    "address": "Bd. Eroilor nr. 3"
+  },
+  {
+    "latitude": 44.8553,
+    "longitude": 24.8718,
+    "address": "Str. Armand Calinescu"
+  },
+  {
+    "latitude": 44.855,
+    "longitude": 24.8718,
+    "address": "Str. Armand Calinescu"
+  },
+  {
+    "latitude": 44.8547,
+    "longitude": 24.8712,
+    "address": "Str. Eroilor nr. 5"
+  },
+  {
+    "latitude": 44.8545,
+    "longitude": 24.871,
+    "address": "Str. Eroilor nr. 5"
+  },
+  {
+    "latitude": 44.8545,
+    "longitude": 24.8715,
+    "address": "str Primaverii"
+  },
+  {
+    "latitude": 44.8525,
+    "longitude": 24.8706,
+    "address": "Strada Exercitiu"
+  },
+  {
+    "latitude": 44.8504,
+    "longitude": 24.8705,
+    "address": "Strada Exercitiu"
+  },
+  {
+    "latitude": 44.8504,
+    "longitude": 24.8716,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8502,
+    "longitude": 24.8706,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.85,
+    "longitude": 24.8709,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8498,
+    "longitude": 24.8713,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8486,
+    "longitude": 24.8689,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8559,
+    "longitude": 24.876,
+    "address": "Piața Vasile Milea"
+  },
+  {
+    "latitude": 44.8588,
+    "longitude": 24.8686,
+    "address": "Bulevardul Republicii"
+  },
+  {
+    "latitude": 44.8593,
+    "longitude": 24.87,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8593,
+    "longitude": 24.8699,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8587,
+    "longitude": 24.8704,
+    "address": "Str. Victoriei"
+  },
+  {
+    "latitude": 44.8589,
+    "longitude": 24.8703,
+    "address": "Str. Victoriei nr. 24"
+  },
+  {
+    "latitude": 44.8592,
+    "longitude": 24.8711,
+    "address": "Str. Victoriei 22"
+  },
+  {
+    "latitude": 44.8595,
+    "longitude": 24.8712,
+    "address": "Str. Victoriei nr. 24"
+  },
+  {
+    "latitude": 44.8594,
+    "longitude": 24.871,
+    "address": "Str. Victoriei nr. 24"
+  },
+  {
+    "latitude": 44.8594,
+    "longitude": 24.8713,
+    "address": "Str. Victoriei 22"
+  },
+  {
+    "latitude": 44.8593,
+    "longitude": 24.8715,
+    "address": "Str. Victoriei 22"
+  },
+  {
+    "latitude": 44.8593,
+    "longitude": 24.8712,
+    "address": "Str. Victoriei 22"
+  },
+  {
+    "latitude": 44.8592,
+    "longitude": 24.8712,
+    "address": "Str. Victoriei 22"
+  },
+  {
+    "latitude": 44.8593,
+    "longitude": 24.8711,
+    "address": "Str. Victoriei 22"
+  },
+  {
+    "latitude": 44.8576,
+    "longitude": 24.8732,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8572,
+    "longitude": 24.873,
+    "address": "Str. Victoriei, nr. 12"
+  },
+  {
+    "latitude": 44.8571,
+    "longitude": 24.873,
+    "address": "Str. Victoriei, nr. 12"
+  },
+  {
+    "latitude": 44.8565,
+    "longitude": 24.8736,
+    "address": "Piața Munteniei nr. 3"
+  },
+  {
+    "latitude": 44.8562,
+    "longitude": 24.8743,
+    "address": "Str. Victoriei"
+  },
+  {
+    "latitude": 44.8561,
+    "longitude": 24.8745,
+    "address": "Str. Victoriei"
+  },
+  {
+    "latitude": 44.856,
+    "longitude": 24.8747,
+    "address": "Str. Victoriei nr. 1"
+  },
+  {
+    "latitude": 44.856,
+    "longitude": 24.8748,
+    "address": "Str. Victoriei nr. 1"
+  },
+  {
+    "latitude": 44.8559,
+    "longitude": 24.8749,
+    "address": "Str. Victoriei nr. 1"
+  },
+  {
+    "latitude": 44.8558,
+    "longitude": 24.875,
+    "address": "Str. Victoriei nr. 1"
+  },
+  {
+    "latitude": 44.8556,
+    "longitude": 24.8753,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8554,
+    "longitude": 24.8761,
+    "address": "Piața Vasile Milea"
+  },
+  {
+    "latitude": 44.8554,
+    "longitude": 24.8757,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8552,
+    "longitude": 24.8761,
+    "address": "Piața Vasile Milea"
+  },
+  {
+    "latitude": 44.855,
+    "longitude": 24.879,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8556,
+    "longitude": 24.8785,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8543,
+    "longitude": 24.8795,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8553,
+    "longitude": 24.8787,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8558,
+    "longitude": 24.8786,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8548,
+    "longitude": 24.8792,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8539,
+    "longitude": 24.8798,
+    "address": "Bd. I.C Bratianu"
+  },
+  {
+    "latitude": 44.8551,
+    "longitude": 24.8792,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8539,
+    "longitude": 24.8797,
+    "address": "Bd. I.C Bratianu"
+  },
+  {
+    "latitude": 44.8556,
+    "longitude": 24.8787,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8553,
+    "longitude": 24.8761,
+    "address": "Piața Vasile Milea"
+  },
+  {
+    "latitude": 44.8552,
+    "longitude": 24.8773,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8536,
+    "longitude": 24.8798,
+    "address": "Bd. I.C Bratianu"
+  },
+  {
+    "latitude": 44.8532,
+    "longitude": 24.8799,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8525,
+    "longitude": 24.8799,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8519,
+    "longitude": 24.8798,
+    "address": "Str. Egalității"
+  },
+  {
+    "latitude": 44.8526,
+    "longitude": 24.8786,
+    "address": "C.A. Rosetti"
+  },
+  {
+    "latitude": 44.8531,
+    "longitude": 24.8784,
+    "address": "C.A. Rosetti"
+  },
+  {
+    "latitude": 44.8529,
+    "longitude": 24.8782,
+    "address": "C.A. Rosetti"
+  },
+  {
+    "latitude": 44.8529,
+    "longitude": 24.8781,
+    "address": "C.A. Rosetti"
+  },
+  {
+    "latitude": 44.853,
+    "longitude": 24.8781,
+    "address": "C.A. Rosetti"
+  },
+  {
+    "latitude": 44.853,
+    "longitude": 24.8778,
+    "address": "Bd. Republicii"
+  },
+  {
+    "latitude": 44.8532,
+    "longitude": 24.8776,
+    "address": "Bd. Republicii"
+  },
+  {
+    "latitude": 44.853,
+    "longitude": 24.8775,
+    "address": "Bd. Republicii"
+  },
+  {
+    "latitude": 44.8529,
+    "longitude": 24.8775,
+    "address": "Bd. Republicii"
+  },
+  {
+    "latitude": 44.8535,
+    "longitude": 24.8764,
+    "address": "Casa Cărţii"
+  },
+  {
+    "latitude": 44.8537,
+    "longitude": 24.8766,
+    "address": "Casa Cărţii"
+  },
+  {
+    "latitude": 44.8539,
+    "longitude": 24.8761,
+    "address": "Casa Cărţii"
+  },
+  {
+    "latitude": 44.854,
+    "longitude": 24.8763,
+    "address": "Casa Cărţii"
+  },
+  {
+    "latitude": 44.8544,
+    "longitude": 24.8753,
+    "address": "Blvd. Republicii Nr. 98"
+  },
+  {
+    "latitude": 44.8539,
+    "longitude": 24.8743,
+    "address": "Str. Egalității nr. 34"
+  },
+  {
+    "latitude": 44.8535,
+    "longitude": 24.8749,
+    "address": "Strada Egalităţii"
+  },
+  {
+    "latitude": 44.8518,
+    "longitude": 24.8764,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8535,
+    "longitude": 24.875,
+    "address": "Strada Egalităţii"
+  },
+  {
+    "latitude": 44.8526,
+    "longitude": 24.8766,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8517,
+    "longitude": 24.8758,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8513,
+    "longitude": 24.8752,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8523,
+    "longitude": 24.8737,
+    "address": "Str. Egalității nr. 34"
+  },
+  {
+    "latitude": 44.8525,
+    "longitude": 24.8734,
+    "address": "Str. Egalității nr. 34"
+  },
+  {
+    "latitude": 44.8502,
+    "longitude": 24.8739,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.874,
+    "longitude": 24.8474,
+    "address": "Bd. Nicolae Balcescu"
+  },
+  {
+    "latitude": 44.8736,
+    "longitude": 24.8465,
+    "address": "Bd. Nicolae Balcescu"
+  },
+  {
+    "latitude": 44.873,
+    "longitude": 24.8458,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8728,
+    "longitude": 24.8456,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8728,
+    "longitude": 24.8455,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8722,
+    "longitude": 24.8447,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8723,
+    "longitude": 24.8451,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8718,
+    "longitude": 24.8446,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8835,
+    "longitude": 24.8306,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8817,
+    "longitude": 24.8341,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8818,
+    "longitude": 24.8344,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8815,
+    "longitude": 24.835,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8806,
+    "longitude": 24.8371,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8788,
+    "longitude": 24.841,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.877,
+    "longitude": 24.8436,
+    "address": "Bd. Nicolae Bălcescu, nr. 165"
+  },
+  {
+    "latitude": 44.8766,
+    "longitude": 24.8442,
+    "address": "Bd. Nicolae Bălcescu, nr. 165"
+  },
+  {
+    "latitude": 44.8767,
+    "longitude": 24.8444,
+    "address": "Bd. Nicolae Bălcescu, nr. 165"
+  },
+  {
+    "latitude": 44.8725,
+    "longitude": 24.851,
+    "address": "Aleea Spitalului nr. 10"
+  },
+  {
+    "latitude": 44.8838,
+    "longitude": 24.8292,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8832,
+    "longitude": 24.8312,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.883,
+    "longitude": 24.8318,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8828,
+    "longitude": 24.8322,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8822,
+    "longitude": 24.833,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8803,
+    "longitude": 44.8795,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8794,
+    "longitude": 24.8395,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.879,
+    "longitude": 24.8406,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8776,
+    "longitude": 24.8425,
+    "address": "Bd. Nicolae Bălcescu, nr. 165"
+  },
+  {
+    "latitude": 44.8754,
+    "longitude": 24.8461,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8724,
+    "longitude": 24.8511,
+    "address": "Bd. Nicolae Balcescu nr. 54"
+  },
+  {
+    "latitude": 44.8838,
+    "longitude": 24.8294,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8833,
+    "longitude": 24.8304,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.883,
+    "longitude": 24.8308,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8824,
+    "longitude": 24.833,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8821,
+    "longitude": 24.8332,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8821,
+    "longitude": 24.8333,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8817,
+    "longitude": 24.834,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8812,
+    "longitude": 24.8354,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8809,
+    "longitude": 24.8364,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8807,
+    "longitude": 24.8364,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8804,
+    "longitude": 24.8371,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8793,
+    "longitude": 24.8401,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8791,
+    "longitude": 24.8401,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8778,
+    "longitude": 24.8414,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.878,
+    "longitude": 24.8417,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8779,
+    "longitude": 24.8419,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8758,
+    "longitude": 24.8456,
+    "address": "Nicolae Balcescu, 128"
+  },
+  {
+    "latitude": 44.8758,
+    "longitude": 24.8459,
+    "address": "Nicolae Balcescu, 128"
+  },
+  {
+    "latitude": 44.8827,
+    "longitude": 24.8318,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8825,
+    "longitude": 24.8323,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.882,
+    "longitude": 24.8323,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.882,
+    "longitude": 24.8335,
+    "address": "Bd. Nicolae Bălcescu, nr. 184"
+  },
+  {
+    "latitude": 44.8798,
+    "longitude": 24.8385,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8798,
+    "longitude": 24.8388,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.875,
+    "longitude": 24.8469,
+    "address": "Unnamed Road"
+  },
+  {
+    "latitude": 44.8699,
+    "longitude": 24.8708,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8698,
+    "longitude": 24.8708,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8698,
+    "longitude": 24.8711,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8694,
+    "longitude": 24.8705,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8697,
+    "longitude": 24.8707,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8696,
+    "longitude": 24.871,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8696,
+    "longitude": 24.8707,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8695,
+    "longitude": 24.8707,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8695,
+    "longitude": 24.8706,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8696,
+    "longitude": 24.8705,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8696,
+    "longitude": 24.8704,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8696,
+    "longitude": 24.8702,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8699,
+    "longitude": 24.8703,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8698,
+    "longitude": 24.8699,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8699,
+    "longitude": 24.87,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8699,
+    "longitude": 24.8699,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8701,
+    "longitude": 24.8694,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8701,
+    "longitude": 24.8693,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8701,
+    "longitude": 24.8691,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8701,
+    "longitude": 24.869,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8698,
+    "longitude": 24.8691,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8698,
+    "longitude": 24.8692,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8698,
+    "longitude": 24.8693,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8698,
+    "longitude": 24.8694,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8696,
+    "longitude": 24.8695,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8693,
+    "longitude": 24.8699,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8694,
+    "longitude": 24.8699,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8694,
+    "longitude": 24.8701,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8693,
+    "longitude": 24.87,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8694,
+    "longitude": 24.8709,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8694,
+    "longitude": 24.8708,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8694,
+    "longitude": 24.8704,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8695,
+    "longitude": 24.8703,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8693,
+    "longitude": 24.8703,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8693,
+    "longitude": 24.8701,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8691,
+    "longitude": 24.8706,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8692,
+    "longitude": 24.8707,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.869,
+    "longitude": 24.8709,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8698,
+    "longitude": 24.871,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.869,
+    "longitude": 24.8708,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.869,
+    "longitude": 24.871,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8691,
+    "longitude": 24.8711,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.8688,
+    "longitude": 24.8715,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  },
+  {
+    "latitude": 44.869,
+    "longitude": 24.8717,
+    "address": "Str. Victoriei nr. 36, et. 3"
+  }
+]

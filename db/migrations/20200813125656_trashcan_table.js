@@ -32,6 +32,8 @@ exports.up = async (knex) => {
     // can be null
     table.datetime('last_login');
 
+    table.unique(['email', 'name']);
+
     addDefaults(table, knex);
   });
 

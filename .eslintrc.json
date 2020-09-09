@@ -11,7 +11,7 @@
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
     "linebreak-style": "off",
-    "camelcase": "warn",
+    "camelcase": 0,
     "node/no-unpublished-require": "off"
   }
 }
