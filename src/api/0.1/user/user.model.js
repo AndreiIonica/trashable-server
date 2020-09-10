@@ -1,12 +1,12 @@
 // The model Objection.js uses for validation
 const { Model } = require('objection');
 
-const schema = require('./trashcanType.schema.json');
+const schema = require('./user.schema.json');
 const tableNames = require('../../../constants/tableNames');
 
-class TrashcanType extends Model {
+class User extends Model {
   static get tableName() {
-    return tableNames.trashcan_type;
+    return tableNames.user;
   }
 
   static get jsonSchema() {
@@ -16,4 +16,4 @@ class TrashcanType extends Model {
   // TODO: add relations
 }
 
-module.exports = TrashcanType;
+module.exports = User;

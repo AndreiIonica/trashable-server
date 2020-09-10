@@ -16,7 +16,7 @@ class City extends Model {
     return schema;
   }
 
-  // ORM relational mapping
+  // TODO: refactor this
   static get relationMappings() {
     return {
       county: {

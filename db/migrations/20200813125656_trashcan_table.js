@@ -2,7 +2,7 @@ const Knex = require('knex');
 const tableNames = require('../../src/constants/tableNames.json');
 
 // Add created_at, updated_at and deleted at timestamps(datetime format)
-async function addDefaults(table, knex) {
+async function addDefaults(table) {
   table.timestamps(false, true);
 
   table.datetime('deleted_at');
@@ -34,7 +34,7 @@ exports.up = async (knex) => {
 
     table.unique(['email', 'name']);
 
-    addDefaults(table, knex);
+    addDefaults(table);
   });
 
   await knex.schema.createTable(tableNames.trashcan, (table) => {
