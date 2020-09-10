@@ -2,11 +2,11 @@
 const express = require('express');
 
 // Get routes
-const trashcanType = require('./trashcanType/trashcanType.route');
-const county = require('./county/county.route');
-const city = require('./city/city.route');
-const trashcan = require('./trashcan/trashcan.route');
-const user = require('./user/user.route');
+const trashcanType = require('./trashcanType/trashcanType.routes');
+const county = require('./county/county.routes');
+const city = require('./city/city.routes');
+const trashcan = require('./trashcan/trashcan.routes');
+const user = require('./user/user.routes');
 
 // Invoke API router
 const router = express.Router();
