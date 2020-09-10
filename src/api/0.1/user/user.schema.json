@@ -23,6 +23,11 @@
       "title": "The email of the user.Must be unique",
       "examples": ["costumer@exxample.com"]
     },
+    "password": {
+      "$id": "#/properties/password",
+      "type": "string",
+      "title": "The hashed password of the user."
+    },
     "role": {
       "$id": "#/properties/role",
       "type": "string",

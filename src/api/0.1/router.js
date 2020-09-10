@@ -7,6 +7,7 @@ const county = require('./county/county.routes');
 const city = require('./city/city.routes');
 const trashcan = require('./trashcan/trashcan.routes');
 const user = require('./user/user.routes');
+const auth = require('./auth/auth.routes');
 
 // Invoke API router
 const router = express.Router();
@@ -17,6 +18,7 @@ router.use('/county', county);
 router.use('/city', city);
 router.use('/trashcan', trashcan);
 router.use('/user', user);
+router.use('/auth', auth);
 
 // Generic response for /api
 router.get('/', (req, res) => {

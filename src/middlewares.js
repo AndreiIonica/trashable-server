@@ -19,7 +19,8 @@ function errorHandler(err, req, res, next) {
   res.json({
     status: res.statusCode,
     message: err.message,
-    stack: process.env.NODE_ENV === 'production' ? 'nope' : err.stack
+    stack: process.env.NODE_ENV === 'production' ? 'nope' : err.stack,
+    errors: err.errors || undefined
   });
 }
 
