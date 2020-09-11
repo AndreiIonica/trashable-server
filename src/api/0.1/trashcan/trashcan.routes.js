@@ -1,5 +1,7 @@
 const express = require('express');
+
 const Trashcan = require('./trashcan.model');
+const { isLoggedIn } = require('../../../lib/jwt');
 
 const router = express.Router();
 
@@ -24,16 +26,19 @@ router.get('/:id', async (req, res, next) => {
   }
 });
 
-router.post('/', async (req, res, next) => {
+router.post('/', isLoggedIn, async (req, res, next) => {
   try {
+    req.body.user_id = req.auth_data.id;
     const trashcan = await Trashcan.query().insert(req.body);
+
     res.json(trashcan);
   } catch (err) {
     next(err);
   }
 });
 
-router.put('/:id', async (req, res, next) => {
+// TODO: only the user with that created the trashcan can update it
+router.put('/:id', isLoggedIn, async (req, res, next) => {
   try {
     const updatedT = await Trashcan.query()
       .findById(req.params.id)
@@ -48,7 +53,8 @@ router.put('/:id', async (req, res, next) => {
   }
 });
 
-router.delete('/:id', async (req, res, next) => {
+// TODO: only the user with that created the trashcan can update it
+router.delete('/:id', isLoggedIn, async (req, res, next) => {
   try {
     // Soft deletes
     await Trashcan.query().findById(req.params.id).patch({

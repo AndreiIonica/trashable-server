@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/', async (req, res, next) => {
   try {
-    const fields = ['name', 'role', 'last_login'];
+    const fields = ['name', 'role', 'last_login', 'id'];
 
     const users = await User.query().select(fields).where('deleted_at', null);
 

@@ -1,6 +1,4 @@
 // The express app.
-// A request goes from the top to the bottom and
-// sees if it mathces any routes here
 const express = require('express');
 const morgan = require('morgan');
 const compression = require('compression');

@@ -6,7 +6,7 @@ function sign(payload) {
       payload,
       process.env.JWT_SECRET,
       {
-        expiresIn: process.env.NODE_ENV === 'production' ? '1h' : '1d'
+        expiresIn: process.env.NODE_ENV === 'production' ? '1h' : '1y'
       },
       (err, token) => {
         if (err) reject(err);
@@ -16,6 +16,18 @@ function sign(payload) {
   });
 }
 
+// this is a express middleware
+function isLoggedIn(req, res, next) {
+  try {
+    const user = jwt.verify(req.header('auth-token'), process.env.JWT_SECRET);
+    req.auth_data = user;
+    next();
+  } catch (e) {
+    next(e);
+  }
+}
+
 module.exports = {
-  sign
+  sign,
+  isLoggedIn
 };

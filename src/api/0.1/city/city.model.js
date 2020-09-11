@@ -21,7 +21,6 @@ class City extends Model {
     return {
       county: {
         // Relation: ONE counnty has MANY cities
-        // so a city belongs to one county
         relation: Model.BelongsToOneRelation,
         modelClass: County,
         // Property by which to join them

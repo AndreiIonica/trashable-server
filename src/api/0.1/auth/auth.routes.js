@@ -21,7 +21,8 @@ const schema = yup.object().shape({
 
 const errorTypes = {
   emailUsed: 'Email is already in use',
-  nameUsed: 'Username is already in use'
+  nameUsed: 'Username is already in use',
+  invalidLogin: 'Inavlid Login.'
 };
 
 // TODO: should i make this system so that username is used for login and email is used only for verification?
@@ -75,7 +76,6 @@ router.post('/signup', async (req, res, next) => {
     const payload = {
       id: insertedUser.id,
       name,
-      email,
       role
     };
 
@@ -89,6 +89,43 @@ router.post('/signup', async (req, res, next) => {
   }
 });
 
-// TODO: implement login route and add isLoggedIn middleware
+router.post('/login', async (req, res, next) => {
+  const { email, password } = req.body;
+  try {
+    // TODO: should i validate on login?
+
+    const user = await User.query().where({ email }).first();
+    if (!user) {
+      const err = new Error(errorTypes.invalidLogin);
+      res.status(403);
+      throw err;
+    }
+
+    // first arg is the data from the request, the second is the encrypted password from the db
+    const validPassword = await bcrypt.compare(password, user.password);
+    if (!validPassword) {
+      const err = new Error(errorTypes.invalidLogin);
+      res.status(403);
+      throw err;
+    }
+    delete user.password;
+
+    // send back a token if it got this far
+    const payload = {
+      id: user.id,
+      name: user.name,
+      role: user.role
+    };
+
+    const token = await jwt.sign(payload);
+
+    res.json({
+      token
+    });
+  } catch (e) {
+    res.status(403);
+    next(e);
+  }
+});
 
 module.exports = router;
