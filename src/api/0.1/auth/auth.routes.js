@@ -44,8 +44,7 @@ router.post('/signup', async (req, res, next) => {
       abortEarly: false
     });
 
-    // TODO: refactor checking for user
-    // Check if a user with that email exists.
+    // this is good enough.it isn't  whort refactoring as this is the only place where we check fo a existing
     let existingUser = await User.query().where({ email }).first();
     if (existingUser) {
       const error = new Error(errorTypes.emailUsed);
@@ -92,8 +91,6 @@ router.post('/signup', async (req, res, next) => {
 router.post('/login', async (req, res, next) => {
   const { email, password } = req.body;
   try {
-    // TODO: should i validate on login?
-
     const user = await User.query().where({ email }).first();
     if (!user) {
       const err = new Error(errorTypes.invalidLogin);

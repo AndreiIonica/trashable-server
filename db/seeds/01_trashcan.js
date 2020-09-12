@@ -2,7 +2,7 @@
 const Knex = require('knex');
 
 const tableNames = require('../../src/constants/tableNames.json');
-const trashcans = require('../sources/trashcans.json');
+const trashcan_list = require('../sources/trashcans.json');
 
 /**
  * @param {Knex} knex
@@ -18,18 +18,19 @@ exports.seed = async (knex) => {
     .where('role', 'admin')
     .first();
 
-  // TODO: refactor this
-  for (let i = 0; i < trashcans.length; i += 1) {
-    const t = {
-      user_id,
-      latitude: trashcans[i].latitude,
-      longitude: trashcans[i].longitude,
-      altitude: 414, // average altitude for Romania, we dont have this data yet
-      street_address: trashcans[i].address,
-      city_id,
-      type_id: 1
-    };
-    await knex(tableNames.trashcan).insert(t);
-    // console.log(t);
-  }
+  const trashacans = [];
+  await Promise.all(
+    trashcan_list.map(async (t) => {
+      trashacans.push({
+        user_id,
+        latitude: t.latitude,
+        longitude: t.longitude,
+        altitude: 414, // average altitude for Romania, we dont have this data yet
+        street_address: t.address,
+        city_id,
+        type_id: 1
+      });
+    })
+  );
+  await knex(tableNames.trashcan).insert(trashacans);
 };

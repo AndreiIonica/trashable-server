@@ -12,8 +12,6 @@ class User extends Model {
   static get jsonSchema() {
     return schema;
   }
-
-  // TODO: add relations
 }
 
 module.exports = User;

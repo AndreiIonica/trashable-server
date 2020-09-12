@@ -5,7 +5,6 @@ const db = require('../src/db');
 
 const app = require('../src/app');
 
-// TODO: modify this test to a better one
 describe('GET /', () => {
   it('should respond with a message', async () => {
     const response = await supertest(app)

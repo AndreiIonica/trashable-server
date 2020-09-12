@@ -16,14 +16,12 @@ class City extends Model {
     return schema;
   }
 
-  // TODO: refactor this
   static get relationMappings() {
     return {
       county: {
         // Relation: ONE counnty has MANY cities
         relation: Model.BelongsToOneRelation,
         modelClass: County,
-        // Property by which to join them
         join: {
           from: 'county.id',
           to: 'city.county_id'

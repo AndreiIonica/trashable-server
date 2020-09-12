@@ -17,7 +17,6 @@ class Trashcan extends Model {
     return schema;
   }
 
-  // TODO: refactor this
   static get relationMappings() {
     return {
       city: {
