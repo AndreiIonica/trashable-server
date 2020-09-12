@@ -7,7 +7,11 @@ const router = express.Router();
 
 router.get('/', async (req, res, next) => {
   try {
-    const trashcans = await Trashcan.query().where('deleted_at', null);
+    const queryParams = req.query;
+    const trashcans = await Trashcan.query()
+      .where(queryParams)
+      .where('deleted_at', null);
+
     res.json(trashcans);
   } catch (err) {
     next(err);
@@ -37,12 +41,22 @@ router.post('/', isLoggedIn, async (req, res, next) => {
   }
 });
 
-// TODO: only the user with that created the trashcan can update it
 router.put('/:id', isLoggedIn, async (req, res, next) => {
   try {
-    const updatedT = await Trashcan.query()
-      .findById(req.params.id)
-      .patch(req.body);
+    const trashcan = await Trashcan.query().findById(req.params.id);
+    if (
+      !(
+        req.auth_data.id === trashcan.user_id || req.auth_data.role === 'admin'
+      ) ||
+      req.body.user_id
+    ) {
+      res.status(403);
+      const err = new Error('You are not a mod or admin!');
+      throw err;
+    } else {
+      // update the trashcan
+      await Trashcan.query().findById(req.params.id).patch(req.body);
+    }
 
     // Send back a generic message to let the client know it was succesful
     res.json({
@@ -53,13 +67,24 @@ router.put('/:id', isLoggedIn, async (req, res, next) => {
   }
 });
 
-// TODO: only the user with that created the trashcan can update it
 router.delete('/:id', isLoggedIn, async (req, res, next) => {
   try {
-    // Soft deletes
-    await Trashcan.query().findById(req.params.id).patch({
-      deleted_at: new Date().toISOString()
-    });
+    const trashcan = await Trashcan.query().findById(req.params.id);
+    if (
+      !(
+        req.auth_data.id === trashcan.user_id || req.auth_data.role === 'admin'
+      ) ||
+      req.body.user_id
+    ) {
+      res.status(403);
+      const err = new Error('You are not a mod or admin!');
+      throw err;
+    } else {
+      // Soft deletes
+      await Trashcan.query().findById(req.params.id).patch({
+        deleted_at: new Date().toISOString()
+      });
+    }
 
     // Send back a generic message to let the client know it was succesful
     res.json({

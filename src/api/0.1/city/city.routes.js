@@ -8,7 +8,12 @@ const City = require('./city.model');
 
 router.get('/', async (req, res, next) => {
   try {
-    const cities = await City.query().where('deleted_at', null);
+    // auto-filter(dont implement any filtering manually,)
+    // TODO: is this secure?
+    const queryParams = req.query;
+    const cities = await City.query()
+      .where(queryParams)
+      .where('deleted_at', null);
 
     res.json(cities);
   } catch (err) {
