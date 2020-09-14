@@ -2,6 +2,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const compression = require('compression');
+const cors = require('cors');
 // Security headers
 const helmet = require('helmet');
 
@@ -19,6 +20,7 @@ const app = express();
 
 // middlewares for logging(morgan), compression, security(helmet) and json body-parser
 app.use(morgan('tiny'));
+app.use(cors());
 app.use(compression());
 app.use(helmet());
 app.use(express.json());
