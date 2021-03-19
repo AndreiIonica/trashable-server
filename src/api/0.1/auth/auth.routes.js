@@ -85,6 +85,7 @@ router.post('/signup', async (req, res, next) => {
       token
     });
   } catch (err) {
+    res.status(400);
     next(err);
   }
 });
