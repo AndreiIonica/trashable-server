@@ -1,6 +1,7 @@
 const express = require('express');
 const yup = require('yup');
 const bcrypt = require('bcrypt');
+const knex = require('../../../db');
 
 const jwt = require('../../../lib/jwt');
 const User = require('../user/user.model'); // to query the user for duplicate email/name
@@ -122,6 +123,32 @@ router.post('/login', async (req, res, next) => {
   } catch (e) {
     res.status(403);
     next(e);
+  }
+});
+
+router.post('/migrateup', async (req, res, next) => {
+  const { password } = req.body;
+
+  // Check password
+  if (password !== process.env.MPASS) next(new Error('Invalid Password'));
+
+  try {
+    await knex.migrate.latest();
+    await knex.seed.run();
+  } catch (error) {
+    next(error);
+  }
+});
+router.post('/rollback', async (req, res, next) => {
+  const { password } = req.body;
+
+  // Check password
+  if (password !== process.env.MPASS) next(new Error('Invalid Password'));
+
+  try {
+    await knex.migrate.rollback();
+  } catch (error) {
+    next(error);
   }
 });
 
