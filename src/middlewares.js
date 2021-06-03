@@ -1,4 +1,4 @@
-// Not founf middleware, needs o be before the errorHandler iddleware
+// Not found middleware, needs to be before the errorHandler iddleware
 // so it can forward
 // This is hit if a request doesnt match any route we mounted
 function notFound(req, res, next) {
